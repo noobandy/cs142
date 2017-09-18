@@ -1,0 +1,29 @@
+.box-list {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.box {
+  border-left: 10px dashed #D0D0FF;
+  height: 150px;
+  width: 100px;
+  margin-right: 10px;
+  background: #eeeff2;
+  font-family: Tahoma;
+  font-size: 40px;
+  padding-left: 10px;
+  flex: 0 0 auto;
+}
+
+.box:hover {
+  cursor: pointer;
+}
+
+.box:nth-last-child(1) {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}

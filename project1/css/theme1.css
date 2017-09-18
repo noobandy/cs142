@@ -1,0 +1,31 @@
+.box-list {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+}
+
+.box {
+  border-top: 1px solid #687291;
+  box-sizing: border-box;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: Tahoma;
+  font-size: 40px;
+}
+
+.box:nth-child(even) {
+  background: #dfe1e7
+}
+
+.box:nth-child(odd) {
+  background: #eeeff2
+}
+
+.box:nth-last-child(1) {
+  border: 4px solid;
+  background: #687291;
+}
