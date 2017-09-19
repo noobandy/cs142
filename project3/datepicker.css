@@ -1,0 +1,15 @@
+.datepicker {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.datepicker  ul {
+    display: none;
+    flex-flow: column nowrap;
+    align-items: center;
+    align-content: center;
+    list-style: none;
+}
